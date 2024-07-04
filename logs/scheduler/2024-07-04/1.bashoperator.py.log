@@ -764,3 +764,17 @@ SyntaxError: invalid syntax
 [2024-07-04T11:56:54.458+0000] {logging_mixin.py:120} INFO - [2024-07-04T11:56:54.458+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2024-07-04T11:56:54.486+0000] {logging_mixin.py:120} INFO - [2024-07-04T11:56:54.486+0000] {dag.py:3340} INFO - Setting next_dagrun for bashoperator to 2024-07-04T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
 [2024-07-04T11:56:54.507+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/1.bashoperator.py took 0.112 seconds
+[2024-07-04T11:57:24.698+0000] {processor.py:154} INFO - Started process (PID=4961) to work on /opt/airflow/dags/1.bashoperator.py
+[2024-07-04T11:57:24.699+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/1.bashoperator.py for tasks to queue
+[2024-07-04T11:57:24.700+0000] {logging_mixin.py:120} INFO - [2024-07-04T11:57:24.700+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/1.bashoperator.py
+[2024-07-04T11:57:24.714+0000] {processor.py:766} INFO - DAG(s) dict_keys(['bashoperator']) retrieved from /opt/airflow/dags/1.bashoperator.py
+[2024-07-04T11:57:24.750+0000] {logging_mixin.py:120} INFO - [2024-07-04T11:57:24.750+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-04T11:57:24.783+0000] {logging_mixin.py:120} INFO - [2024-07-04T11:57:24.782+0000] {dag.py:3340} INFO - Setting next_dagrun for bashoperator to 2024-07-04T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-04T11:57:24.807+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/1.bashoperator.py took 0.112 seconds
+[2024-07-04T11:57:54.910+0000] {processor.py:154} INFO - Started process (PID=4990) to work on /opt/airflow/dags/1.bashoperator.py
+[2024-07-04T11:57:54.916+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/1.bashoperator.py for tasks to queue
+[2024-07-04T11:57:54.917+0000] {logging_mixin.py:120} INFO - [2024-07-04T11:57:54.917+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/1.bashoperator.py
+[2024-07-04T11:57:54.936+0000] {processor.py:766} INFO - DAG(s) dict_keys(['bashoperator']) retrieved from /opt/airflow/dags/1.bashoperator.py
+[2024-07-04T11:57:55.015+0000] {logging_mixin.py:120} INFO - [2024-07-04T11:57:55.015+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-04T11:57:55.119+0000] {logging_mixin.py:120} INFO - [2024-07-04T11:57:55.118+0000] {dag.py:3340} INFO - Setting next_dagrun for bashoperator to 2024-07-04T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-04T11:57:55.183+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/1.bashoperator.py took 0.277 seconds
