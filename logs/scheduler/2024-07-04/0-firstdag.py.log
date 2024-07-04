@@ -1583,3 +1583,66 @@ TypeError: __init__() got an unexpected keyword argument 'startdate'
 [2024-07-04T12:26:19.212+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:26:19.212+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2024-07-04T12:26:19.489+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:26:19.489+0000] {dag.py:3340} INFO - Setting next_dagrun for primerdag to 2024-07-04T00:00:00+00:00, run_after=2024-07-04T00:00:00+00:00
 [2024-07-04T12:26:19.653+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/0-firstdag.py took 1.918 seconds
+[2024-07-04T12:26:49.815+0000] {processor.py:154} INFO - Started process (PID=6478) to work on /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:26:49.817+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/0-firstdag.py for tasks to queue
+[2024-07-04T12:26:49.818+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:26:49.818+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:26:49.837+0000] {processor.py:766} INFO - DAG(s) dict_keys(['primerdag']) retrieved from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:26:49.895+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:26:49.895+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-04T12:26:49.918+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:26:49.918+0000] {dag.py:3340} INFO - Setting next_dagrun for primerdag to 2024-07-04T00:00:00+00:00, run_after=2024-07-04T00:00:00+00:00
+[2024-07-04T12:26:49.938+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/0-firstdag.py took 0.126 seconds
+[2024-07-04T12:27:20.154+0000] {processor.py:154} INFO - Started process (PID=6507) to work on /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:27:20.155+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/0-firstdag.py for tasks to queue
+[2024-07-04T12:27:20.155+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:27:20.155+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:27:20.170+0000] {processor.py:766} INFO - DAG(s) dict_keys(['primerdag']) retrieved from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:27:20.212+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:27:20.211+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-04T12:27:20.242+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:27:20.242+0000] {dag.py:3340} INFO - Setting next_dagrun for primerdag to 2024-07-04T00:00:00+00:00, run_after=2024-07-04T00:00:00+00:00
+[2024-07-04T12:27:20.276+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/0-firstdag.py took 0.127 seconds
+[2024-07-04T12:27:50.781+0000] {processor.py:154} INFO - Started process (PID=6527) to work on /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:27:50.797+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/0-firstdag.py for tasks to queue
+[2024-07-04T12:27:50.798+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:27:50.798+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:27:50.893+0000] {processor.py:766} INFO - DAG(s) dict_keys(['primerdag']) retrieved from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:27:51.022+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:27:51.022+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-04T12:27:51.073+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:27:51.073+0000] {dag.py:3340} INFO - Setting next_dagrun for primerdag to 2024-07-04T00:00:00+00:00, run_after=2024-07-04T00:00:00+00:00
+[2024-07-04T12:27:51.106+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/0-firstdag.py took 0.342 seconds
+[2024-07-04T12:28:21.403+0000] {processor.py:154} INFO - Started process (PID=6556) to work on /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:28:21.403+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/0-firstdag.py for tasks to queue
+[2024-07-04T12:28:21.406+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:28:21.406+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:28:21.427+0000] {processor.py:766} INFO - DAG(s) dict_keys(['primerdag']) retrieved from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:28:21.482+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:28:21.482+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-04T12:28:21.508+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:28:21.508+0000] {dag.py:3340} INFO - Setting next_dagrun for primerdag to 2024-07-04T00:00:00+00:00, run_after=2024-07-04T00:00:00+00:00
+[2024-07-04T12:28:21.529+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/0-firstdag.py took 0.130 seconds
+[2024-07-04T12:28:51.720+0000] {processor.py:154} INFO - Started process (PID=6584) to work on /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:28:51.721+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/0-firstdag.py for tasks to queue
+[2024-07-04T12:28:51.722+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:28:51.722+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:28:51.733+0000] {processor.py:766} INFO - DAG(s) dict_keys(['primerdag']) retrieved from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:28:51.776+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:28:51.776+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-04T12:28:51.819+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:28:51.819+0000] {dag.py:3340} INFO - Setting next_dagrun for primerdag to 2024-07-04T00:00:00+00:00, run_after=2024-07-04T00:00:00+00:00
+[2024-07-04T12:28:51.849+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/0-firstdag.py took 0.132 seconds
+[2024-07-04T12:29:22.076+0000] {processor.py:154} INFO - Started process (PID=6612) to work on /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:29:22.087+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/0-firstdag.py for tasks to queue
+[2024-07-04T12:29:22.088+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:29:22.088+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:29:22.109+0000] {processor.py:766} INFO - DAG(s) dict_keys(['primerdag']) retrieved from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:29:22.189+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:29:22.188+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-04T12:29:22.231+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:29:22.231+0000] {dag.py:3340} INFO - Setting next_dagrun for primerdag to 2024-07-04T00:00:00+00:00, run_after=2024-07-04T00:00:00+00:00
+[2024-07-04T12:29:22.249+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/0-firstdag.py took 0.176 seconds
+[2024-07-04T12:29:52.398+0000] {processor.py:154} INFO - Started process (PID=6632) to work on /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:29:52.399+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/0-firstdag.py for tasks to queue
+[2024-07-04T12:29:52.401+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:29:52.401+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:29:52.419+0000] {processor.py:766} INFO - DAG(s) dict_keys(['primerdag']) retrieved from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:29:52.463+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:29:52.463+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-04T12:29:52.501+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:29:52.501+0000] {dag.py:3340} INFO - Setting next_dagrun for primerdag to 2024-07-04T00:00:00+00:00, run_after=2024-07-04T00:00:00+00:00
+[2024-07-04T12:29:52.526+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/0-firstdag.py took 0.130 seconds
+[2024-07-04T12:30:22.580+0000] {processor.py:154} INFO - Started process (PID=6661) to work on /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:30:22.584+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/0-firstdag.py for tasks to queue
+[2024-07-04T12:30:22.592+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:30:22.592+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:30:22.649+0000] {processor.py:766} INFO - DAG(s) dict_keys(['primerdag']) retrieved from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:30:22.978+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:30:22.978+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-04T12:30:23.083+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:30:23.083+0000] {dag.py:3340} INFO - Setting next_dagrun for primerdag to 2024-07-04T00:00:00+00:00, run_after=2024-07-04T00:00:00+00:00
+[2024-07-04T12:30:23.106+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/0-firstdag.py took 0.529 seconds
+[2024-07-04T12:30:53.275+0000] {processor.py:154} INFO - Started process (PID=6690) to work on /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:30:53.283+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/0-firstdag.py for tasks to queue
+[2024-07-04T12:30:53.284+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:30:53.284+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:30:53.307+0000] {processor.py:766} INFO - DAG(s) dict_keys(['primerdag']) retrieved from /opt/airflow/dags/0-firstdag.py
+[2024-07-04T12:30:53.387+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:30:53.387+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-04T12:30:53.418+0000] {logging_mixin.py:120} INFO - [2024-07-04T12:30:53.418+0000] {dag.py:3340} INFO - Setting next_dagrun for primerdag to 2024-07-04T00:00:00+00:00, run_after=2024-07-04T00:00:00+00:00
+[2024-07-04T12:30:53.446+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/0-firstdag.py took 0.174 seconds
