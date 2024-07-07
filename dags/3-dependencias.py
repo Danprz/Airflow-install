@@ -19,5 +19,5 @@ with DAG(dag_id="dependencias",
                       bash_command="echo 'Esta es la tarea 3'")
     t4= BashOperator(task_id="tarea4",
                       bash_command="echo 'Esta es la tarea 4'")
-
-    t1 >> t2 >> [t3, t4]
+    t1.set_downstream(t2)
+    t2.set_downstream([t3,t4])
