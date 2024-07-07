@@ -2537,3 +2537,395 @@
 [2024-07-07T17:34:37.365+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:34:37.365+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2024-07-07T17:34:37.396+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:34:37.396+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
 [2024-07-07T17:34:37.419+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.119 seconds
+[2024-07-07T17:35:07.775+0000] {processor.py:154} INFO - Started process (PID=14945) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:35:07.776+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:35:07.777+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:35:07.777+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:35:07.797+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:35:07.840+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:35:07.839+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:35:07.868+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:35:07.867+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:35:07.891+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.120 seconds
+[2024-07-07T17:35:38.789+0000] {processor.py:154} INFO - Started process (PID=14972) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:35:38.791+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:35:38.791+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:35:38.791+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:35:38.809+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:35:38.853+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:35:38.853+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:35:38.881+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:35:38.881+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:35:38.957+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.172 seconds
+[2024-07-07T17:36:09.396+0000] {processor.py:154} INFO - Started process (PID=15008) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:36:09.400+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:36:09.403+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:36:09.403+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:36:09.428+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:36:09.523+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:36:09.523+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:36:09.579+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:36:09.579+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:36:09.621+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.228 seconds
+[2024-07-07T17:36:40.222+0000] {processor.py:154} INFO - Started process (PID=15042) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:36:40.224+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:36:40.225+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:36:40.225+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:36:40.242+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:36:40.280+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:36:40.279+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:36:40.306+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:36:40.306+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:36:40.326+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.108 seconds
+[2024-07-07T17:37:10.766+0000] {processor.py:154} INFO - Started process (PID=15078) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:37:10.766+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:37:10.767+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:37:10.767+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:37:10.782+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:37:10.818+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:37:10.818+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:37:10.890+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:37:10.890+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:37:10.928+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.166 seconds
+[2024-07-07T17:37:41.578+0000] {processor.py:154} INFO - Started process (PID=15106) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:37:41.579+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:37:41.580+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:37:41.580+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:37:41.595+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:37:41.632+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:37:41.632+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:37:41.668+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:37:41.668+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:37:41.688+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.115 seconds
+[2024-07-07T17:38:12.346+0000] {processor.py:154} INFO - Started process (PID=15141) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:38:12.347+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:38:12.348+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:38:12.348+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:38:12.366+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:38:12.406+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:38:12.406+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:38:12.440+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:38:12.440+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:38:12.465+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.124 seconds
+[2024-07-07T17:38:42.990+0000] {processor.py:154} INFO - Started process (PID=15177) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:38:42.991+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:38:42.991+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:38:42.991+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:38:43.008+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:38:43.047+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:38:43.047+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:38:43.077+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:38:43.077+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:38:43.099+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.112 seconds
+[2024-07-07T17:39:13.688+0000] {processor.py:154} INFO - Started process (PID=15213) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:39:13.690+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:39:13.690+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:39:13.690+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:39:13.706+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:39:13.749+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:39:13.748+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:39:13.775+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:39:13.775+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:39:13.795+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.110 seconds
+[2024-07-07T17:39:44.470+0000] {processor.py:154} INFO - Started process (PID=15250) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:39:44.471+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:39:44.471+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:39:44.471+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:39:44.505+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:39:44.561+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:39:44.560+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:39:44.588+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:39:44.587+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:39:44.627+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.159 seconds
+[2024-07-07T17:40:15.412+0000] {processor.py:154} INFO - Started process (PID=15277) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:40:15.414+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:40:15.414+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:40:15.414+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:40:15.430+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:40:15.469+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:40:15.469+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:40:15.503+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:40:15.503+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:40:15.526+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.130 seconds
+[2024-07-07T17:40:46.094+0000] {processor.py:154} INFO - Started process (PID=15312) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:40:46.101+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:40:46.101+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:40:46.101+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:40:46.137+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:40:46.225+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:40:46.225+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:40:46.282+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:40:46.281+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:40:46.317+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.227 seconds
+[2024-07-07T17:41:16.971+0000] {processor.py:154} INFO - Started process (PID=15349) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:41:16.973+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:41:16.974+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:41:16.974+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:41:16.991+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:41:17.027+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:41:17.027+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:41:17.059+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:41:17.059+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:41:17.078+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.114 seconds
+[2024-07-07T17:41:47.650+0000] {processor.py:154} INFO - Started process (PID=15386) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:41:47.651+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:41:47.652+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:41:47.652+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:41:47.667+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:41:47.763+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:41:47.763+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:41:47.790+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:41:47.790+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:41:47.812+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.166 seconds
+[2024-07-07T17:42:18.374+0000] {processor.py:154} INFO - Started process (PID=15413) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:42:18.380+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:42:18.381+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:42:18.381+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:42:18.402+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:42:18.438+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:42:18.438+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:42:18.467+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:42:18.467+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:42:18.490+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.119 seconds
+[2024-07-07T17:42:48.925+0000] {processor.py:154} INFO - Started process (PID=15450) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:42:48.925+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:42:48.926+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:42:48.926+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:42:48.941+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:42:48.979+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:42:48.979+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:42:49.008+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:42:49.008+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:42:49.030+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.108 seconds
+[2024-07-07T17:43:19.642+0000] {processor.py:154} INFO - Started process (PID=15487) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:43:19.644+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:43:19.645+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:43:19.644+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:43:19.660+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:43:19.697+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:43:19.697+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:43:19.724+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:43:19.724+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:43:19.747+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.108 seconds
+[2024-07-07T17:43:49.820+0000] {processor.py:154} INFO - Started process (PID=15523) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:43:49.822+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:43:49.822+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:43:49.822+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:43:49.838+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:43:49.896+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:43:49.896+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:43:49.922+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:43:49.922+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:43:49.946+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.129 seconds
+[2024-07-07T17:44:20.443+0000] {processor.py:154} INFO - Started process (PID=15550) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:44:20.444+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:44:20.444+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:44:20.444+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:44:20.469+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:44:20.561+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:44:20.561+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:44:20.622+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:44:20.621+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:44:20.659+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.229 seconds
+[2024-07-07T17:44:51.242+0000] {processor.py:154} INFO - Started process (PID=15584) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:44:51.250+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:44:51.252+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:44:51.251+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:44:51.267+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:44:51.309+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:44:51.308+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:44:51.337+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:44:51.337+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:44:51.357+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.118 seconds
+[2024-07-07T17:45:21.568+0000] {processor.py:154} INFO - Started process (PID=15620) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:45:21.575+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:45:21.579+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:45:21.578+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:45:21.609+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:45:21.652+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:45:21.651+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:45:21.677+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:45:21.677+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:45:21.702+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.145 seconds
+[2024-07-07T17:45:52.301+0000] {processor.py:154} INFO - Started process (PID=15648) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:45:52.303+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:45:52.303+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:45:52.303+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:45:52.324+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:45:52.379+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:45:52.379+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:45:52.426+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:45:52.426+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:45:52.456+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.160 seconds
+[2024-07-07T17:46:23.018+0000] {processor.py:154} INFO - Started process (PID=15685) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:46:23.019+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:46:23.020+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:46:23.020+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:46:23.040+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:46:23.087+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:46:23.086+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:46:23.115+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:46:23.115+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:46:23.137+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.123 seconds
+[2024-07-07T17:46:53.742+0000] {processor.py:154} INFO - Started process (PID=15721) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:46:53.743+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:46:53.744+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:46:53.744+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:46:53.759+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:46:53.800+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:46:53.800+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:46:53.828+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:46:53.827+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:46:53.848+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.111 seconds
+[2024-07-07T17:47:24.445+0000] {processor.py:154} INFO - Started process (PID=15755) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:47:24.453+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:47:24.454+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:47:24.454+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:47:24.485+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:47:24.568+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:47:24.567+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:47:24.629+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:47:24.629+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:47:24.653+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.210 seconds
+[2024-07-07T17:47:55.180+0000] {processor.py:154} INFO - Started process (PID=15783) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:47:55.181+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:47:55.183+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:47:55.183+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:47:55.201+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:47:55.257+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:47:55.256+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:47:55.297+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:47:55.297+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:47:55.323+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.146 seconds
+[2024-07-07T17:48:25.968+0000] {processor.py:154} INFO - Started process (PID=15819) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:48:25.969+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:48:25.969+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:48:25.969+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:48:26.038+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:48:26.104+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:48:26.104+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:48:26.198+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:48:26.198+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:48:26.274+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.311 seconds
+[2024-07-07T17:48:56.822+0000] {processor.py:154} INFO - Started process (PID=15856) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:48:56.827+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:48:56.829+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:48:56.829+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:48:56.886+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:48:56.973+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:48:56.973+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:48:57.022+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:48:57.022+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:48:57.074+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.256 seconds
+[2024-07-07T17:49:27.803+0000] {processor.py:154} INFO - Started process (PID=15893) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:49:27.805+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:49:27.806+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:49:27.805+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:49:27.821+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:49:27.874+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:49:27.874+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:49:27.912+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:49:27.912+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:49:27.932+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.132 seconds
+[2024-07-07T17:49:58.491+0000] {processor.py:154} INFO - Started process (PID=15921) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:49:58.493+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:49:58.494+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:49:58.494+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:49:58.513+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:49:58.557+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:49:58.556+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:49:58.591+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:49:58.591+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:49:58.613+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.126 seconds
+[2024-07-07T17:50:29.116+0000] {processor.py:154} INFO - Started process (PID=15957) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:50:29.122+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:50:29.123+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:50:29.123+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:50:29.154+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:50:29.195+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:50:29.195+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:50:29.224+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:50:29.224+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:50:29.243+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.134 seconds
+[2024-07-07T17:50:59.795+0000] {processor.py:154} INFO - Started process (PID=15993) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:50:59.797+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:50:59.798+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:50:59.797+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:50:59.814+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:50:59.855+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:50:59.854+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:50:59.910+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:50:59.910+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:50:59.934+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.141 seconds
+[2024-07-07T17:51:30.619+0000] {processor.py:154} INFO - Started process (PID=16029) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:51:30.620+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:51:30.621+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:51:30.621+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:51:30.637+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:51:30.727+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:51:30.727+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:51:30.752+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:51:30.752+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:51:30.769+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.154 seconds
+[2024-07-07T17:52:01.431+0000] {processor.py:154} INFO - Started process (PID=16057) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:52:01.433+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:52:01.433+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:52:01.433+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:52:01.449+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:52:01.490+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:52:01.490+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:52:01.521+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:52:01.520+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:52:01.545+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.118 seconds
+[2024-07-07T17:52:32.126+0000] {processor.py:154} INFO - Started process (PID=16093) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:52:32.133+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:52:32.134+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:52:32.134+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:52:32.180+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:52:32.339+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:52:32.338+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:52:32.399+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:52:32.399+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:52:32.455+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.333 seconds
+[2024-07-07T17:53:03.129+0000] {processor.py:154} INFO - Started process (PID=16129) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:53:03.130+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:53:03.130+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:53:03.130+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:53:03.145+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:53:03.183+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:53:03.182+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:53:03.218+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:53:03.218+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:53:03.241+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.115 seconds
+[2024-07-07T17:53:34.073+0000] {processor.py:154} INFO - Started process (PID=16164) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:53:34.074+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:53:34.075+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:53:34.075+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:53:34.091+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:53:34.133+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:53:34.133+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:53:34.162+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:53:34.162+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:53:34.182+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.112 seconds
+[2024-07-07T17:54:04.840+0000] {processor.py:154} INFO - Started process (PID=16197) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:54:04.851+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:54:04.852+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:54:04.851+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:54:04.892+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:54:05.009+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:54:05.009+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:54:05.105+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:54:05.104+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:54:05.158+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.322 seconds
+[2024-07-07T17:54:36.114+0000] {processor.py:154} INFO - Started process (PID=16226) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:54:36.116+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:54:36.117+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:54:36.117+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:54:36.133+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:54:36.171+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:54:36.171+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:54:36.198+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:54:36.198+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:54:36.217+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.108 seconds
+[2024-07-07T17:55:06.830+0000] {processor.py:154} INFO - Started process (PID=16262) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:55:06.831+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:55:06.832+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:55:06.832+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:55:06.850+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:55:06.903+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:55:06.903+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:55:06.934+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:55:06.933+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:55:06.953+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.126 seconds
+[2024-07-07T17:55:37.677+0000] {processor.py:154} INFO - Started process (PID=16297) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:55:37.678+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:55:37.678+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:55:37.678+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:55:37.694+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:55:37.751+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:55:37.751+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:55:37.796+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:55:37.795+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:55:37.817+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.144 seconds
+[2024-07-07T17:56:08.675+0000] {processor.py:154} INFO - Started process (PID=16324) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:56:08.675+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:56:08.676+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:56:08.676+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:56:08.709+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:56:08.834+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:56:08.833+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:56:08.920+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:56:08.907+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:56:08.974+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.305 seconds
+[2024-07-07T17:56:39.794+0000] {processor.py:154} INFO - Started process (PID=16360) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:56:39.796+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:56:39.796+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:56:39.796+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:56:39.811+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:56:39.846+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:56:39.846+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:56:39.896+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:56:39.896+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:56:39.931+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.140 seconds
+[2024-07-07T17:57:10.277+0000] {processor.py:154} INFO - Started process (PID=16397) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:57:10.279+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:57:10.279+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:57:10.279+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:57:10.326+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:57:10.417+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:57:10.417+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:57:10.924+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:57:10.924+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:57:11.133+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.859 seconds
+[2024-07-07T17:57:41.702+0000] {processor.py:154} INFO - Started process (PID=16423) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:57:41.705+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:57:41.706+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:57:41.706+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:57:41.728+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:57:41.767+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:57:41.766+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:57:41.792+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:57:41.792+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:57:41.813+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.114 seconds
+[2024-07-07T17:58:12.547+0000] {processor.py:154} INFO - Started process (PID=16459) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:58:12.548+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:58:12.548+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:58:12.548+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:58:12.567+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:58:12.604+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:58:12.604+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:58:12.635+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:58:12.635+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:58:12.662+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.118 seconds
+[2024-07-07T17:58:43.471+0000] {processor.py:154} INFO - Started process (PID=16495) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:58:43.477+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:58:43.479+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:58:43.478+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:58:43.521+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:58:43.655+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:58:43.654+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:58:43.716+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:58:43.716+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:58:43.795+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.327 seconds
+[2024-07-07T17:59:14.382+0000] {processor.py:154} INFO - Started process (PID=16530) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:59:14.391+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:59:14.391+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:59:14.391+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:59:14.426+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:59:14.500+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:59:14.499+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:59:14.557+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:59:14.557+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:59:14.590+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.213 seconds
+[2024-07-07T17:59:45.231+0000] {processor.py:154} INFO - Started process (PID=16557) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:59:45.232+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T17:59:45.233+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:59:45.233+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:59:45.327+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T17:59:45.402+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:59:45.402+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T17:59:45.431+0000] {logging_mixin.py:120} INFO - [2024-07-07T17:59:45.431+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T17:59:45.450+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.231 seconds
+[2024-07-07T18:00:16.168+0000] {processor.py:154} INFO - Started process (PID=16592) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:00:16.170+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T18:00:16.171+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:00:16.170+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:00:16.201+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:00:16.241+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:00:16.241+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T18:00:16.272+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:00:16.272+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T18:00:16.291+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.126 seconds
+[2024-07-07T18:00:47.199+0000] {processor.py:154} INFO - Started process (PID=16629) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:00:47.200+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T18:00:47.201+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:00:47.201+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:00:47.217+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:00:47.261+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:00:47.261+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T18:00:47.291+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:00:47.291+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T18:00:47.317+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.122 seconds
+[2024-07-07T18:01:17.990+0000] {processor.py:154} INFO - Started process (PID=16665) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:01:17.999+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T18:01:18.000+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:01:18.000+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:01:18.040+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:01:18.120+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:01:18.119+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T18:01:18.173+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:01:18.173+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T18:01:18.200+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.213 seconds
+[2024-07-07T18:01:48.732+0000] {processor.py:154} INFO - Started process (PID=16692) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:01:48.733+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T18:01:48.733+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:01:48.733+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:01:48.758+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:01:48.811+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:01:48.811+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T18:01:48.852+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:01:48.852+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T18:01:48.894+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.165 seconds
+[2024-07-07T18:02:19.615+0000] {processor.py:154} INFO - Started process (PID=16729) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:02:19.617+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T18:02:19.618+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:02:19.617+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:02:19.635+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:02:19.681+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:02:19.681+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T18:02:19.710+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:02:19.710+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T18:02:19.729+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.117 seconds
+[2024-07-07T18:02:50.400+0000] {processor.py:154} INFO - Started process (PID=16765) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:02:50.420+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T18:02:50.425+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:02:50.425+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:02:50.511+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:02:50.677+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:02:50.676+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T18:02:50.760+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:02:50.760+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T18:02:50.854+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.459 seconds
+[2024-07-07T18:03:21.751+0000] {processor.py:154} INFO - Started process (PID=16793) to work on /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:03:21.755+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.2-orchestration.py for tasks to queue
+[2024-07-07T18:03:21.756+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:03:21.755+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:03:21.783+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orchestration2']) retrieved from /opt/airflow/dags/5.2-orchestration.py
+[2024-07-07T18:03:21.833+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:03:21.833+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T18:03:21.864+0000] {logging_mixin.py:120} INFO - [2024-07-07T18:03:21.864+0000] {dag.py:3340} INFO - Setting next_dagrun for orchestration2 to None, run_after=None
+[2024-07-07T18:03:21.883+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.2-orchestration.py took 0.138 seconds
