@@ -4,9 +4,9 @@ from datetime import datetime
 
 with DAG(dag_id="orchestration2",
          description="orchestration with intervals crontab ",  
-         start_date=datetime(2024,7,1),
-         end_date=datetime(2024,8,1),
-         schedule_interval="0 7 * * 1") as dag:
+         schedule_interval="0 7 * * 1",
+         start_date=datetime(2024,1,1),
+         end_date=datetime(2024,6,1)) as dag:
 
     t1 = EmptyOperator(task_id="task_1")
 
