@@ -5518,3 +5518,143 @@
 [2024-07-07T19:08:04.878+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:08:04.878+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2024-07-07T19:08:04.915+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:08:04.915+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
 [2024-07-07T19:08:04.942+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.199 seconds
+[2024-07-07T19:08:35.932+0000] {processor.py:154} INFO - Started process (PID=21152) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:08:36.006+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:08:36.059+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:08:36.059+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:08:36.618+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:08:38.069+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:08:38.069+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:08:38.164+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:08:38.154+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:08:38.359+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 2.431 seconds
+[2024-07-07T19:09:09.275+0000] {processor.py:154} INFO - Started process (PID=21181) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:09:09.278+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:09:09.279+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:09:09.279+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:09:09.311+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:09:09.416+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:09:09.416+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:09:09.543+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:09:09.543+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:09:09.665+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.397 seconds
+[2024-07-07T19:09:39.780+0000] {processor.py:154} INFO - Started process (PID=21218) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:09:39.781+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:09:39.782+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:09:39.782+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:09:39.843+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:09:41.174+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:09:41.174+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:09:41.277+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:09:41.277+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:09:41.315+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 1.558 seconds
+[2024-07-07T19:10:13.020+0000] {processor.py:154} INFO - Started process (PID=21251) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:10:13.050+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:10:13.051+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:10:13.051+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:10:13.124+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:10:13.294+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:10:13.294+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:10:13.340+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:10:13.340+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:10:13.389+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.377 seconds
+[2024-07-07T19:10:44.731+0000] {processor.py:154} INFO - Started process (PID=21293) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:10:44.744+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:10:44.746+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:10:44.746+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:10:44.789+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:10:45.223+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:10:45.217+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:10:45.396+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:10:45.396+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:10:45.485+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.760 seconds
+[2024-07-07T19:11:15.716+0000] {processor.py:154} INFO - Started process (PID=21333) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:11:15.717+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:11:15.733+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:11:15.733+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:11:15.765+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:11:15.873+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:11:15.873+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:11:15.969+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:11:15.969+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:11:16.006+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.293 seconds
+[2024-07-07T19:11:46.615+0000] {processor.py:154} INFO - Started process (PID=21363) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:11:46.616+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:11:46.618+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:11:46.618+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:11:46.653+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:11:46.766+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:11:46.766+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:11:46.820+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:11:46.820+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:11:46.871+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.265 seconds
+[2024-07-07T19:12:17.598+0000] {processor.py:154} INFO - Started process (PID=21402) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:12:17.611+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:12:17.612+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:12:17.612+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:12:17.675+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:12:17.808+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:12:17.807+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:12:17.878+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:12:17.878+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:12:17.926+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.333 seconds
+[2024-07-07T19:12:48.610+0000] {processor.py:154} INFO - Started process (PID=21434) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:12:48.611+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:12:48.612+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:12:48.612+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:12:48.644+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:12:48.798+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:12:48.798+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:12:48.831+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:12:48.831+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:12:48.861+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.256 seconds
+[2024-07-07T19:13:19.642+0000] {processor.py:154} INFO - Started process (PID=21475) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:13:19.643+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:13:19.644+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:13:19.644+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:13:19.669+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:13:19.713+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:13:19.713+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:13:19.746+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:13:19.746+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:13:19.790+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.151 seconds
+[2024-07-07T19:13:50.041+0000] {processor.py:154} INFO - Started process (PID=21505) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:13:50.051+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:13:50.058+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:13:50.057+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:13:50.124+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:13:50.242+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:13:50.241+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:13:50.316+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:13:50.316+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:13:50.407+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.369 seconds
+[2024-07-07T19:14:21.069+0000] {processor.py:154} INFO - Started process (PID=21544) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:14:21.070+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:14:21.070+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:14:21.070+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:14:21.098+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:14:21.147+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:14:21.147+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:14:21.170+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:14:21.170+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:14:21.194+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.129 seconds
+[2024-07-07T19:14:51.655+0000] {processor.py:154} INFO - Started process (PID=21583) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:14:51.660+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:14:51.661+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:14:51.660+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:14:51.680+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:14:51.744+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:14:51.744+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:14:51.773+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:14:51.773+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:14:51.800+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.149 seconds
+[2024-07-07T19:15:22.453+0000] {processor.py:154} INFO - Started process (PID=21615) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:15:22.468+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:15:22.469+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:15:22.468+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:15:22.507+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:15:22.604+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:15:22.604+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:15:22.650+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:15:22.650+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:15:22.692+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.243 seconds
+[2024-07-07T19:15:53.223+0000] {processor.py:154} INFO - Started process (PID=21655) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:15:53.225+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:15:53.225+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:15:53.225+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:15:53.245+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:15:53.291+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:15:53.291+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:15:53.316+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:15:53.316+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:15:53.339+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.119 seconds
+[2024-07-07T19:16:23.817+0000] {processor.py:154} INFO - Started process (PID=21693) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:16:23.819+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:16:23.820+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:16:23.820+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:16:23.837+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:16:23.892+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:16:23.892+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:16:23.925+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:16:23.925+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:16:23.952+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.141 seconds
+[2024-07-07T19:16:54.399+0000] {processor.py:154} INFO - Started process (PID=21724) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:16:54.402+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:16:54.403+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:16:54.402+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:16:54.457+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:16:54.621+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:16:54.621+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:16:54.693+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:16:54.693+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:16:54.743+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.354 seconds
+[2024-07-07T19:17:25.551+0000] {processor.py:154} INFO - Started process (PID=21762) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:17:25.552+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:17:25.552+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:17:25.552+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:17:25.578+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:17:25.634+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:17:25.634+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:17:25.666+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:17:25.666+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:17:25.685+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.138 seconds
+[2024-07-07T19:17:56.044+0000] {processor.py:154} INFO - Started process (PID=21801) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:17:56.046+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:17:56.046+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:17:56.046+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:17:56.061+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:17:56.097+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:17:56.097+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:17:56.123+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:17:56.123+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:17:56.144+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.102 seconds
+[2024-07-07T19:18:26.911+0000] {processor.py:154} INFO - Started process (PID=21832) to work on /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:18:26.927+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/3-dependencias.py for tasks to queue
+[2024-07-07T19:18:26.928+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:18:26.928+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:18:26.970+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dependencias']) retrieved from /opt/airflow/dags/3-dependencias.py
+[2024-07-07T19:18:27.035+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:18:27.035+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T19:18:27.075+0000] {logging_mixin.py:120} INFO - [2024-07-07T19:18:27.075+0000] {dag.py:3340} INFO - Setting next_dagrun for dependencias to 2024-07-05T00:00:00+00:00, run_after=2024-07-05T00:00:00+00:00
+[2024-07-07T19:18:27.141+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/3-dependencias.py took 0.234 seconds
