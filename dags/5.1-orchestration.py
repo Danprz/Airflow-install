@@ -16,5 +16,6 @@ with DAG(dag_id="bashoperator",
     t4 = BashOperator(task_id="task14",
                     bash_command="sleep 2 echo 'Orquestando en tarea 4'")
     
-    t1 >> t2 >> [t3,t4]
+    t1.set_downstream(t2)
+    t2.set_downstream([t3,t4])
 
