@@ -22749,3 +22749,71 @@ File Path                                 PID  Runtime      # DAGs    # Errors  
 /opt/airflow/dags/4-customoperator.py                            1           0  0.70s           2024-07-07T19:06:01
 /opt/airflow/dags/6.2-monitoring.py                              1           0  0.25s           2024-07-07T19:06:06
 ================================================================================
+[2024-07-07T19:06:41.514+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/5.3-orchestration.py                           1           0  0.18s           2024-07-07T19:06:32
+/opt/airflow/dags/5.1-orchestration.py                           1           0  0.61s           2024-07-07T19:06:12
+/opt/airflow/dags/5.2-orchestration.py                           1           0  0.62s           2024-07-07T19:06:12
+/opt/airflow/dags/2-pythonoperator.py                            1           0  0.18s           2024-07-07T19:06:33
+/opt/airflow/dags/3-dependencias.py                              1           0  0.19s           2024-07-07T19:06:33
+/opt/airflow/dags/0-firstdag.py                                  1           0  0.16s           2024-07-07T19:06:37
+/opt/airflow/dags/6.1-monitoring.py                              1           0  0.81s           2024-07-07T19:06:37
+/opt/airflow/dags/1.bashoperator.py                              1           0  0.24s           2024-07-07T19:06:37
+/opt/airflow/dags/4-customoperator.py                            1           0  0.17s           2024-07-07T19:06:32
+/opt/airflow/dags/6.2-monitoring.py                              1           0  0.79s           2024-07-07T19:06:37
+================================================================================
+[2024-07-07T19:07:11.562+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/5.3-orchestration.py                           1           0  0.21s           2024-07-07T19:07:03
+/opt/airflow/dags/5.1-orchestration.py                           1           0  0.17s           2024-07-07T19:06:42
+/opt/airflow/dags/5.2-orchestration.py                           1           0  0.16s           2024-07-07T19:06:42
+/opt/airflow/dags/2-pythonoperator.py                            1           0  0.24s           2024-07-07T19:07:04
+/opt/airflow/dags/3-dependencias.py                              1           0  0.25s           2024-07-07T19:07:04
+/opt/airflow/dags/0-firstdag.py                                  1           0  0.23s           2024-07-07T19:07:08
+/opt/airflow/dags/6.1-monitoring.py                              1           0  0.18s           2024-07-07T19:07:08
+/opt/airflow/dags/1.bashoperator.py                              1           0  0.22s           2024-07-07T19:07:08
+/opt/airflow/dags/4-customoperator.py                            1           0  0.20s           2024-07-07T19:07:03
+/opt/airflow/dags/6.2-monitoring.py                              1           0  0.18s           2024-07-07T19:07:08
+================================================================================
+[2024-07-07T19:07:41.833+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/5.3-orchestration.py                           1           0  0.25s           2024-07-07T19:07:33
+/opt/airflow/dags/5.1-orchestration.py                           1           0  0.34s           2024-07-07T19:07:13
+/opt/airflow/dags/5.2-orchestration.py                           1           0  0.40s           2024-07-07T19:07:13
+/opt/airflow/dags/2-pythonoperator.py                            1           0  0.30s           2024-07-07T19:07:34
+/opt/airflow/dags/3-dependencias.py                              1           0  0.20s           2024-07-07T19:07:34
+/opt/airflow/dags/0-firstdag.py                                  1           0  0.13s           2024-07-07T19:07:38
+/opt/airflow/dags/6.1-monitoring.py                              1           0  0.14s           2024-07-07T19:07:38
+/opt/airflow/dags/1.bashoperator.py                              1           0  0.13s           2024-07-07T19:07:38
+/opt/airflow/dags/4-customoperator.py                            1           0  0.22s           2024-07-07T19:07:33
+/opt/airflow/dags/6.2-monitoring.py                              1           0  0.14s           2024-07-07T19:07:38
+================================================================================
+[2024-07-07T19:08:12.621+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/5.3-orchestration.py                           1           0  0.15s           2024-07-07T19:08:03
+/opt/airflow/dags/5.1-orchestration.py                           1           0  0.56s           2024-07-07T19:07:44
+/opt/airflow/dags/5.2-orchestration.py                           1           0  0.46s           2024-07-07T19:07:44
+/opt/airflow/dags/2-pythonoperator.py                            1           0  0.18s           2024-07-07T19:08:04
+/opt/airflow/dags/3-dependencias.py                              1           0  0.21s           2024-07-07T19:08:04
+/opt/airflow/dags/0-firstdag.py                                  1           0  0.18s           2024-07-07T19:08:09
+/opt/airflow/dags/6.1-monitoring.py                              1           0  0.47s           2024-07-07T19:08:09
+/opt/airflow/dags/1.bashoperator.py                              1           0  0.28s           2024-07-07T19:08:09
+/opt/airflow/dags/4-customoperator.py                            1           0  0.14s           2024-07-07T19:08:03
+/opt/airflow/dags/6.2-monitoring.py                              1           0  0.37s           2024-07-07T19:08:09
+================================================================================
