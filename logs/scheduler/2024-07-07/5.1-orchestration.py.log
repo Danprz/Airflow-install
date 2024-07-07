@@ -600,3 +600,10 @@ TypeError: __init__() got an unexpected keyword argument 'max_actives_runs'
 [2024-07-07T10:30:31.774+0000] {logging_mixin.py:120} INFO - [2024-07-07T10:30:31.774+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2024-07-07T10:30:31.800+0000] {logging_mixin.py:120} INFO - [2024-07-07T10:30:31.800+0000] {dag.py:3340} INFO - Setting next_dagrun for orquestation to 2024-07-07T00:00:00+00:00, run_after=2024-07-08T00:00:00+00:00
 [2024-07-07T10:30:31.826+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.1-orchestration.py took 0.118 seconds
+[2024-07-07T10:31:02.268+0000] {processor.py:154} INFO - Started process (PID=3852) to work on /opt/airflow/dags/5.1-orchestration.py
+[2024-07-07T10:31:02.268+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/5.1-orchestration.py for tasks to queue
+[2024-07-07T10:31:02.269+0000] {logging_mixin.py:120} INFO - [2024-07-07T10:31:02.269+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-orchestration.py
+[2024-07-07T10:31:02.283+0000] {processor.py:766} INFO - DAG(s) dict_keys(['orquestation']) retrieved from /opt/airflow/dags/5.1-orchestration.py
+[2024-07-07T10:31:02.318+0000] {logging_mixin.py:120} INFO - [2024-07-07T10:31:02.318+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-07-07T10:31:02.342+0000] {logging_mixin.py:120} INFO - [2024-07-07T10:31:02.342+0000] {dag.py:3340} INFO - Setting next_dagrun for orquestation to 2024-07-07T00:00:00+00:00, run_after=2024-07-08T00:00:00+00:00
+[2024-07-07T10:31:02.364+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/5.1-orchestration.py took 0.099 seconds
