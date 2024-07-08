@@ -1,0 +1,29 @@
+[2024-07-07T19:32:10.358+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: filesensor.end_task scheduled__2022-10-27T00:00:00+00:00 [queued]>
+[2024-07-07T19:32:10.376+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: filesensor.end_task scheduled__2022-10-27T00:00:00+00:00 [queued]>
+[2024-07-07T19:32:10.377+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-07T19:32:10.377+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2024-07-07T19:32:10.377+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-07T19:32:10.401+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): end_task> on 2022-10-27 00:00:00+00:00
+[2024-07-07T19:32:10.407+0000] {standard_task_runner.py:55} INFO - Started process 17394 to run task
+[2024-07-07T19:32:10.418+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'filesensor', 'end_task', 'scheduled__2022-10-27T00:00:00+00:00', '--job-id', '234', '--raw', '--subdir', 'DAGS_FOLDER/7.3-FileSensor.py', '--cfg-path', '/tmp/tmpjvhg_vdg']
+[2024-07-07T19:32:10.419+0000] {standard_task_runner.py:83} INFO - Job 234: Subtask end_task
+[2024-07-07T19:32:10.510+0000] {task_command.py:376} INFO - Running <TaskInstance: filesensor.end_task scheduled__2022-10-27T00:00:00+00:00 [running]> on host 76c37bb8730f
+[2024-07-07T19:32:10.652+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=filesensor
+AIRFLOW_CTX_TASK_ID=end_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-27T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-10-27T00:00:00+00:00
+[2024-07-07T19:32:10.653+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2024-07-07T19:32:10.654+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', "echo 'The file has been received, and contains this: ' && cat /tmp/file.txt"]
+[2024-07-07T19:32:10.670+0000] {subprocess.py:86} INFO - Output:
+[2024-07-07T19:32:10.673+0000] {subprocess.py:93} INFO - The file has been received, and contains this:
+[2024-07-07T19:32:10.675+0000] {subprocess.py:93} INFO - Hi, from my first FileSensor.
+[2024-07-07T19:32:10.675+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-07-07T19:32:10.744+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=filesensor, task_id=end_task, execution_date=20221027T000000, start_date=20240707T193210, end_date=20240707T193210
+[2024-07-07T19:32:10.826+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2024-07-07T19:32:10.853+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
